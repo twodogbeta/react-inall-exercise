@@ -1,3 +1,33 @@
 .home {
   color: if((true), red, yellow);
 }
+
+#content{
+  margin: 0px auto;
+  .content-header{
+    background-image: url('../images/hero-image.png');
+    background-color: #252628;
+    width: 800px;
+    height: 300px;
+    margin: 0 auto;
+    h1{
+      padding-top: 150px;
+    }
+  }
+  .content-body{
+    background-color: #cccccc;
+    width: 800px;
+    height: 400px;
+    margin: 0 auto;
+    .content-body-kit1, .content-body-kit2{
+      float: left;
+      margin-left: 130px;
+      margin-top: 100px;
+    }
+  }
+  a{
+    color: black;
+    text-decoration: underline;
+    font-size: 24px;
+  }
+}
